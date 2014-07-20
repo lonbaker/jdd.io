@@ -1,5 +1,6 @@
 markdown: kramdown
-pygments: true
+exclude: ['bower_components', 'Gemfile.lock', 'Gemfile', 'CNAME', 'README.md', 'Rakefile']
+highlighter: true
 encoding: UTF-8
 defaults:
     scope:
