@@ -1,1 +1,8 @@
 pygments: true
+encoding: UTF-8
+defaults:
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      author: "James Duncan Davidson"
