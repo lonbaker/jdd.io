@@ -3,6 +3,8 @@ layout: default
 ---
 # Oh, hai there!
 
+It’s been a while, hasn’t it. Don’t worry. It’s not you. It’s me. All is peachy, but there have been a lot of changes.
+
 Last December, I accepted a job at [6Wunderkinder](http://6wunderkinder.com) to work on [Wunderlist](http://wunderlist.com). I started on a contract basis in January and shuttled back and forth to Berlin for the next few months while I sold my house, most of my stuff, and put the rest into a storage unit in Portland. Katerina and I found a cute temporary furnished apartment near Alexanderplatz and my permanent job started in April after my residency permit was granted.
 
 Along the way, I meant to send out updates to friends and family. I figured there would be a thousand fascinating things to say. And there have been. Between starting a new job at a startup, however, and moving to a new country—well, there simply hasn’t been much time.
