@@ -19,7 +19,8 @@ layout: nil
    <title>{{ post.title }}</title>
    <link href="http://jdd.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tom.preston-werner.com{{ post.id }}</id>
+   <id>http://jdd.io{{ post.id }}</id>
+   <summary>{{ post.excerpt | xml_escape }}</summary>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}

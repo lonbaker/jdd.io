@@ -32,5 +32,5 @@ file "css/main.css" => ["css/main.less", "css/duncan.less", "css/highlights.less
 end
 
 task jekyll: :less do
-  sh "jekyll build -d /Library/WebServer/Documents --safe"
+  sh "jekyll build --safe"
 end
