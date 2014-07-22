@@ -28,9 +28,9 @@ end
 task less: ["css/main.css"]
 
 file "css/main.css" => ["css/main.less", "css/duncan.less", "css/highlights.less"] do
-  sh "/usr/local/bin/lessc --include-path=bower_components --clean-css css/main.less > css/main.css"
+  sh "/usr/local/bin/lessc --include-path=bower_components --clean-css css/main.less > style.css"
 end
 
 task jekyll: :less do
-  sh "jekyll build --safe"
+  sh "jekyll build -d public --safe"
 end
