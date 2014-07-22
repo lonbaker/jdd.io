@@ -6,15 +6,26 @@ layout: page
 
 # Imprint
 
-**James Duncan Davidson**  
+<div id="imprint">
+<strong>James Duncan Davidson</strong><br>
 10115 Berlin (Mitte) Germany
 
+<div class="email">
 [james@duncandavidson.com](mailto:james@duncandavidson.com)  
-[Twitter](http://twitter.com) •
-[GitHub](http://github.com/duncan) • [Facebook](https://www.facebook.com/duncan.davidson) •
-[LinkedIn](https://www.linkedin.com/in/duncandavidson) • [Keybase](https://keybase.io/duncan)
+</div>
 
-[PGP: A8D95B27516A71CA9935BCBD21CB117EAA3DA070](/pgp.txt)
+<div class="social">
+[<i class="fa fa-twitter"></i>](http://twitter.com)
+[<i class="fa fa-github"></i>](http://github.com/duncan)
+[<i class="fa fa-facebook"></i>](https://www.facebook.com/duncan.davidson)
+[<i class="fa fa-linkedin"></i>](https://www.linkedin.com/in/duncandavidson)
+[<i class="fa fa-key"></i>](https://keybase.io/duncan)
+</div>
+
+<div class="pgp">
+<a href="/pgp.txt">PGP: A8D95B27516A71CA9935BCBD21CB117EAA3DA070</a>
+</div>
+</div>
 
 ## About
 
