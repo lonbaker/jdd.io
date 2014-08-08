@@ -12,5 +12,3 @@ Along the way, I meant to send out updates to friends and family. I figured ther
 I’ve been sad about that. I’ll be picking the best things and writing about them soon. Here. The last six months have given me space to think more about what I want this site to be like. I moved the stuff that used to live on this domain <a href="http://duncandavidson.tumblr.com">onto a Tumblr-based domain</a> and my portfolio site remains at <a href="http://duncandavidson.com">duncandavidson.com</a>.
 
 This week, Katerina and I started a lease on a more permanent apartment near Bernauer Straße that we’ll move into over the next month or so. It’s a beautiful apartment and I’m really looking forward to being there. So much so that instead of going somewhere for August—like so many people in Europe do—we’ll be staying in Berlin and settling into our new place.
-
-More tk.

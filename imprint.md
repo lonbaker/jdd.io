@@ -4,31 +4,25 @@ permalink: /imprint/
 layout: page
 ---
 
-# Imprint
-
 <div id="imprint">
-<strong>James Duncan Davidson</strong><br>
-10115 Berlin (Mitte) Germany
-
+<h1 class="name"><strong>James Duncan Davidson</strong></h1>
+<div class="location">10115 Berlin (Mitte) Germany</div>
 <div class="email">
-[james@duncandavidson.com](mailto:james@duncandavidson.com)  
+<a href="mailto:james@duncandavidson.com">james@duncandavidson.com</a>
 </div>
-
 <div class="social">
-[<i class="fa fa-twitter"></i>](http://twitter.com)
-[<i class="fa fa-github"></i>](http://github.com/duncan)
-[<i class="fa fa-facebook"></i>](https://www.facebook.com/duncan.davidson)
-[<i class="fa fa-linkedin"></i>](https://www.linkedin.com/in/duncandavidson)
-[<i class="fa fa-key"></i>](https://keybase.io/duncan)
+<a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
+<a href="http://github.com/duncan"><i class="fa fa-github"></i></a>
+<a href="https://www.facebook.com/duncan.davidson"><i class="fa fa-facebook"></i></a>
+<a href="https://www.linkedin.com/in/duncandavidson"><i class="fa fa-linkedin"></i></a>
+<a href="https://keybase.io/duncan"><i class="fa fa-key"></i></a>
 </div>
-
 <div class="pgp">
 <a href="/pgp.txt">PGP: A8D95B27516A71CA9935BCBD21CB117EAA3DA070</a>
 </div>
 </div>
 
 ## About
-
 
 I’ve been obsessed with the web since 1994—the days of NSCA Mosiac and 14.4k baud modems. I built my website a couple of months after making my first click and haven’t really stopped rebuilding it since. From architecture school to a job as a software architect, from Dallas to Bay Area to Portland to Berlin and to every corner of the world, the web has been a big part of my life since then.
 

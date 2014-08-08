@@ -4,7 +4,7 @@ exclude: ['bower_components', 'Gemfile.lock', 'Gemfile', 'CNAME', 'README.md', '
 highlighter: true
 encoding: UTF-8
 permalink: date #?
-
+relative_permalinks: false
 defaults:
   -
     scope:
@@ -19,16 +19,3 @@ defaults:
       type: "post"
     values:
       layout: "post"
-
-# defaults:
-#   - scope:
-#       path: ""
-#     values:
-#       layout: "default"
-#       author: "James Duncan Davidson"
-#   - scope:
-#       type: "post"
-#     values:
-#       layout: "post"
-# kramdown:
-#   input: GFM

@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
-gem 'github-pages'
+#gem 'github-pages'
 gem 'rake'
 gem 'rack-jekyll'
+gem 'kramdown'
+gem 'aws-sdk'
+gem 's3_website'
