@@ -1,0 +1,54 @@
+# S3 bucket: jdd.io.s3-website-eu-west-1.amazonaws.com
+# CloudFront: d2t9q7fe9iyyik.cloudfront.net
+
+s3_id: <%= ENV['JDD_AWS_ID'] %>
+s3_secret: <%= ENV['JDD_AWS_SECRET'] %>
+s3_bucket: jdd.io
+s3_endpoint: eu-west-1
+cloudfront_distribution_id: E3JMIN3ORX2LTM
+
+site: public
+
+max_age:
+  "fonts/*": <%= 60 * 60 * 24 * 7 %>
+  "*.html": <%= 60 * 10 %>
+  "*": 300
+
+gzip:
+  - .html
+  - .css
+  - .md
+  - .js
+  - .xml
+#gzip_zopfli: true
+
+# ignore_on_server: that_folder_of_stuff_i_dont_keep_locally
+
+# exclude_from_upload:
+#   - those_folders_of_stuff
+#   - i_wouldnt_want_to_upload
+
+# s3_reduced_redundancy: true
+
+cloudfront_distribution_config:
+  default_cache_behavior:
+    min_TTL: <%= 60 * 60 %>
+  aliases:
+    quantity: 1
+    items:
+      CNAME: jdd.io
+
+cloudfront_invalidate_root: true
+
+# concurrency_level: 5
+
+redirects:
+  rss: atom.xml
+
+routing_rules:
+  - condition:
+      key_prefix_equals: post/
+    redirect:
+      host_name: duncandavidson.tumblr.com
+      replace_key_prefix_with: post/
+      http_redirect_code: 301
