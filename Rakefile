@@ -32,5 +32,9 @@ file "css/main.css" => ["css/main.less", "css/duncan.less", "css/highlights.less
 end
 
 task jekyll: :less do
-  sh "jekyll build -d public --safe"
+  sh "bundle exec jekyll build"
+end
+
+task push: :default do
+  sh "bundle exec s3_website push"
 end
