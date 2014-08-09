@@ -1,10 +1,9 @@
-destination: public
 timezone: Europe/Berlin
 markdown: kramdown
-exclude: ['bower_components', 'Gemfile.lock', 'Gemfile', 'CNAME', 'README.md', 'Rakefile', 's3_website.yml', 'css']
+exclude: ['bower_components', 'Gemfile.lock', 'Gemfile', 'README.md', 'Rakefile', 's3_website.yml']
 highlighter: true
 encoding: UTF-8
-permalink: date #?
+permalink: date
 relative_permalinks: false
 defaults:
   -
