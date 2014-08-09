@@ -5,6 +5,7 @@ highlighter: true
 encoding: UTF-8
 permalink: date
 relative_permalinks: false
+permalink: pretty
 defaults:
   -
     scope:
