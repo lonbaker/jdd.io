@@ -1,6 +1,5 @@
 ---
 title: Copyright
-permalink: /copyright/
 ---
 
 # Copyright

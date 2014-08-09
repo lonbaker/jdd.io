@@ -1,6 +1,5 @@
 ---
 title: Imprint
-permalink: /imprint/
 layout: page
 ---
 
