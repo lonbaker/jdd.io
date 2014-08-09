@@ -2,8 +2,6 @@
 layout: default
 ---
 
-a
-adsfasf
 
 <div class="post-listing">
   {% for post in site.posts %}
