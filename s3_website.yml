@@ -7,7 +7,7 @@ s3_bucket: jdd.io
 s3_endpoint: eu-west-1
 cloudfront_distribution_id: E3JMIN3ORX2LTM
 
-site: public
+site: _site
 
 max_age:
   "fonts/*": <%= 60 * 60 * 24 * 7 %>

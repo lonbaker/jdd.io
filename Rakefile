@@ -1,6 +1,10 @@
 task default: [:jekyll]
 
 task :jekyll do
+  sh "bundle exec jekyll build"
+end
+
+task :wait do
   sh "bundle exec jekyll build -w"
 end
 
