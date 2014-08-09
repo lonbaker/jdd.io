@@ -1,6 +1,3 @@
-# S3 bucket: jdd.io.s3-website-eu-west-1.amazonaws.com
-# CloudFront: d2t9q7fe9iyyik.cloudfront.net
-
 s3_id: <%= ENV['JDD_AWS_ID'] %>
 s3_secret: <%= ENV['JDD_AWS_SECRET'] %>
 s3_bucket: jdd.io
