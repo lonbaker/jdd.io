@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
-#gem 'github-pages'
+
 gem 'rake'
-gem 'rack-jekyll'
 gem 'kramdown'
+gem 'therubyracer'
+gem 'less'
+gem 'jekyll'
+
 gem 'aws-sdk'
 gem 's3_website'
